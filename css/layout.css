@@ -20,9 +20,9 @@ header{
   position: fixed;
   margin-top: -10px;
   margin-left: -10px;
-  border-style: outset;
-  border-bottom: 5px;
-  border-color: white;
+  border-bottom: 2px rgba(250,250,250,0.3);
+
+  border-style:ridge;
   transition: all 0.3s;
 
 
