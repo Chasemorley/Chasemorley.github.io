@@ -16,7 +16,6 @@ header{
   height: 800px;
   width: 100%;
   z-index = 5;
-  background: rgba(200,0,0,0.6);
   position: fixed;
   margin-top: -10px;
   margin-left: -10px;
@@ -55,7 +54,7 @@ header h1{
 }
 .pagewrapper{
   width: 100%;
-  height: 1000px;
+  height: 960px;
 }
 .contentarea{
   width: 940px;
@@ -66,6 +65,7 @@ header h1{
   padding-bottom: 40px;
   box-sizing: border-box;
 }
+
 
 /*navigation*/
 .site-nav ul{
@@ -164,6 +164,42 @@ header h1{
 }
 
  /*end navigation*/
+
+/*for mobiles and smaller screens*/
+
+@media screen and (max-width: 767px){
+  html{
+    font-size: 150%;
+  }
+  .pagewrapper{
+    width: 100%;
+    height: 1400px;
+  }
+
+  .contentarea{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+  header{
+
+    height: 1500px;
+    width: 100%;
+    z-index = 5;
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-bottom: 2px rgba(250,250,250,0.3);
+
+    border-style:ridge;
+    transition: all 0.3s;
+
+
+}
 
 
 /**CLEARFIX METHOD COPY PASTE INTO ALL CODE WITH FLOATS*/
