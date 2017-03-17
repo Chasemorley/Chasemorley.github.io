@@ -15,8 +15,12 @@ function Scroll(){
 
   }
 
-  else {
-    header.style.height = "800px"
+  else { if(screen.width > 767){
+      header.style.height = "800px"
+    } else{
+      header.style.height = "1400px"
+    }
+
   }
 }
 
