@@ -1,15 +1,12 @@
-var = pagetop, menu, yPos;
+var = header, yPos;
 function yScroll(){
-  pagetop = document.getElementById('pagetop')
-  menu = document.getElementById('menu')
+  header = document.getElementById('header')
   yPos = window.pageYOffset;
-  if(yPos > 700){
-    menu.style.height = "100px";
-    pagetop.style.color = "rgba(0,0,0,0,0.6)"
+  if(yPos > 11){
+    header.style.height = header.style.height - yPos;
   } else {
-    pagetop.style.color = "rgba(0,0,0,0,0)"
-
+    header.style.height = "800px"
   }
 }
 
-window.addEventListener("scoll", yScroll)
+window.addEventListener("scroll", yScroll)
