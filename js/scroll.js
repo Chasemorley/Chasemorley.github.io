@@ -5,23 +5,17 @@ function Scroll(){
   if( yPos< 200){
     var slowscroll = 800 - (yPos*100)
     header.style.height = "" + slowscroll +"px ";
-    header.style.background = "rgba(250,0,0,0.0)"
+    header.style.background = "rgba(250,0,0,0.0)";
 
   }
 
   if(yPos > 200 ){
-    header.style.height = "200px"
-    header.style.background = "rgba(250,0,0,0.6)"
+    header.style.height = "200px";
+    header.style.background = "rgba(250,0,0,0.6)";
 
   }
 
-  else { if(screen.width > 767){
-      header.style.height = "800px"
-    } else{
-      header.style.height = "1400px"
-    }
-
-  }
+  else{header.style.height = "800px"}
 }
 
 window.addEventListener("scroll", Scroll)
