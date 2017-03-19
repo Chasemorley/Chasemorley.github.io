@@ -1,4 +1,12 @@
+/*Custom fonts*/
+@fontface{
+  font-family: "trufla";
+  src: url("fonts/trufla.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
+/*end custom fonts*/
 html{
   /background-color: #3491ba;
   text-align: center;
@@ -39,7 +47,7 @@ header h1, header p{
 }
 
 header h1{
-  font-family: "Kunstler Script";
+  font-family: "trufla","Kunstler Script";
   font-size: 400%
 
 }
