@@ -2,29 +2,26 @@
 function Scroll(){
   var header = document.getElementById('header')
   var yPos = window.pageYOffset;
-  if( yPos< 200){
-    var slowscroll = 800 - (yPos*100)
-    header.style.height = "" + slowscroll +"px ";
-    header.style.background = "rgba(250,0,0,0.0)";
-
-  }
-
+  var logo = document.getElementById("logo")
   if(yPos > 200 ){
-    /*
-    header.style.height = "200px";
-    header.style.background = "rgba(250,0,0,0.6)";
-    */
+
     if(screen.width < 768){
-      header.style.height = "300px"
-      header.style.background = "rgba(250,0,0,0.6)"
+      header.style.height = "200px";
+      header.style.background = "rgba(250,0,0,0.6)";
+      logo.style.opacity = 1;
     }
     else{
-      header.style.height = "200px"
+      header.style.height = "100px"
       header.style.background = "rgba(250,0,0,0.6)"
+      logo.style.opacity = 1;
     }
   }
 
-  else{header.style.height = "800px"}
+  else{
+    header.style.height = "100px";
+    logo.style.opacity = 0;
+    header.style.background = "rgba(0,0,0,0)"
+  }
 }
 
 window.addEventListener("scroll", Scroll)
