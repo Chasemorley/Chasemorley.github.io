@@ -1,7 +1,7 @@
 /*Custom fonts*/
-@fontface{
-  font-family: "trufla";
-  src: url("fonts/trufla.ttf");
+@font-face{
+  font-family: "alsscrp";
+  src: url("fonts/alsscrp.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -47,7 +47,7 @@ header h1, header p{
 }
 
 header h1{
-  font-family: "trufla","Kunstler Script";
+  font-family: "alsscrp","Kunstler Script";
   font-size: 400%
 
 }
@@ -174,7 +174,7 @@ header h1{
  /*end navigation*/
 
 /*Mobile phone screens*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .pagewrapper{
     height: 1700px;
   }
