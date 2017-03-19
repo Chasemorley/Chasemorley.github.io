@@ -183,17 +183,6 @@ header h1{
  /*end navigation*/
 
 /*Mobile phone screens*/
-@media screen and (min-width: 700px) and (max-width: 1024px) {
-  .pagewrapper{
-    height: 1700px;
-  }
-
-  header{
-    height: 800px;
-
-  }
-
-
 
 @media screen and (max-width: 450px) {
   .pagewrapper{
