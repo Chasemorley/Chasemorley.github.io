@@ -10,9 +10,18 @@ function Scroll(){
   }
 
   if(yPos > 200 ){
+    /*
     header.style.height = "200px";
     header.style.background = "rgba(250,0,0,0.6)";
-
+    */
+    if(screen.width < 768){
+      header.style.height = "300px"
+      header.style.background = "rgba(250,0,0,0.6)"
+    }
+    else{
+      header.style.height = "200px"
+      header.style.background = "rgba(250,0,0,0.6)"
+    }
   }
 
   else{header.style.height = "800px"}
