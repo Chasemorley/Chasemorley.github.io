@@ -106,12 +106,12 @@ header h1{
   font-family: "alsscrp","Kunstler Script";
   font-size: 400%;
   display:inline-block;
-  text-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+  text-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 
 }
 .pagewrapper p{
   font-size: 150%;
-  text-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+  text-shadow: 10px 10px 10px rgba(0,0,0,0.3);
   margin-top:0;
 }
 
@@ -299,7 +299,10 @@ header h1{
 @media screen and (max-width: 450px) {
 
   html{
+    /* DOESNT WORK FOR SOME FUCKING STUPID REASON
     background:#3491ba url(../images/website-background-10.jpg) top center no-repeat fixed;
+    */
+    background-image: linear-gradient(to bottom right, #636FA4,#E8CBC0 );
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
