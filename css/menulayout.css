@@ -39,8 +39,12 @@
 
 .site-nav.visible a{
   padding: 40px;
-  color: maroon;
+  color: #5b0909;
   font-size: large;
   font-family: "alsscrp";
   font-size: 300%
+}
+
+.site-nav.visible a:hover,.site-nav.visible a:focus {
+  color: #ffa5a5;
 }
