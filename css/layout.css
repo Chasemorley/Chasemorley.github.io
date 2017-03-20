@@ -294,6 +294,14 @@ header h1{
 /*Mobile phone screens*/
 
 @media screen and (max-width: 450px) {
+
+  html{
+    background:#3491ba url(../images/website-background-10.jpg) top center no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+
+  }
+
   .pagewrapper{
     height: 1700px;
     width: 1000px;
