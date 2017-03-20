@@ -39,6 +39,10 @@
 html{
   /background-color: #3491ba;
   text-align: center;
+  background:#3491ba url(../images/website-background-10.jpg) top center no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+
 }
 body{
   font-family: helvetica,arial,sans-serif;
@@ -49,9 +53,6 @@ body{
   -o-animation: fadein 2s;
   -ms-animation: fadein 2s;
   animation: fadein 2s;
-  background:#3491ba url(../images/website-background-10.jpg) top center no-repeat fixed;
-  background-size: cover;
-  background-position:
 
 }
 
