@@ -40,6 +40,9 @@ html{
   /background-color: #3491ba;
   text-align: center;
   background:#3491ba url(../images/website-background-10.jpg) top center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
 
@@ -296,7 +299,10 @@ header h1{
 @media screen and (max-width: 450px) {
 
   html{
-    background: url(../images/fallbackgound.jpg) top center no-repeat fixed;
+    background:#3491ba url(../images/website-background-10.jpg) top center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center;
 
