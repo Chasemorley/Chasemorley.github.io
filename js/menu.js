@@ -1,15 +1,16 @@
 $(function(){
-  $("header . navbarsection .mobile-nav").click(function(){
-      console.log(hello)
+  $(".mobile-nav").click(function(){
       $(".mobilebutton").toggleClass("fa-ellipsis-v");
       $(".mobilebutton").toggleClass("fa-times");
+      /*
       $(".site-nav").toggleClass("visible")
       $(".companytitleandslogan").toggleClass("invisible")
       $(".contentarea").toggleClass("invisible")
+      */
   })
 
 })
-
+/*
 $(function(){
   $(".menubutton").click(function(){
     $(".site-nav").toggleClass("visible")
@@ -18,7 +19,7 @@ $(function(){
     $(".contentarea").toggleClass("invisible")
 
   })
-})
+})*/
 
 $(document).ready(function(){
   $('a[href*=#]').click(function() {
