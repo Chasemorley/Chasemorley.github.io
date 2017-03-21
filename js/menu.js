@@ -1,6 +1,8 @@
 $(function(){
-  $(".mobile-nav").click(function(){
-      $(this).toggleClass("visible");
+  $("header . navbarsection .mobile-nav").click(function(){
+      console.log(hello)
+      $(".mobilebutton").toggleClass("fa-ellipsis-v");
+      $(".mobilebutton").toggleClass("fa-times");
       $(".site-nav").toggleClass("visible")
       $(".companytitleandslogan").toggleClass("invisible")
       $(".contentarea").toggleClass("invisible")

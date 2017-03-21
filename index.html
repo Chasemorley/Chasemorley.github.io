@@ -2,68 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Chasemorley Associates</title>
+    <title>Chase Morley Associates</title>
     <meta name="viewport" content="width=device-width" />
-<link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/menulayout.css">
+    <link rel="stylesheet" href="css/dist/spectre.min.css" />
+    <link rel="stylesheet" href="css/dist/spectre-exp.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/layer.css">
 
   </head>
   <body>
-    <div id= "top">
+    <div id = "home"></div>
+    <header id="header" class="navbar">
+      <section class="navbar-primary">
+        <a id = "logo" class="navbar-brand mr-10">Chase Morley Associates</a>
+      </section>
 
-    </div>
-
-    <header id = "header" class="header">
-
-      <div class="topwrapper">
-
-        <div class="headercontent" id ="logo">
-          <h1 class = "header title">Chase Morley Associates</h1>
-          <p>|Chartered Certified Accountants|</p>
-        </div>
-
-        <!--Navigation menu-->
-
+      <section class="navbar-section mobile show-lg">
         <div class="mobile-nav">
-          <span class = "one"></span>
-          <span class = "two"></span>
-          <span class = "three"></span>
+
+          <i class= "mobilebutton fa fa-ellipsis-v fa-3x"></i>
+
+
         </div>
 
+      </section>
 
+      <section class="navbar-section hide-lg">
+        <div class="btn-block">
+          <a href="#home" class="btn btn-link btn-lg">Home</a>
+          <a href="#aboutus" class="btn btn-link btn-lg">About us</a>
+          <a href="#getintouch" class="btn btn-link btn-lg">Get in touch</a>
 
-      </div>
-
-
-
+        </div>
+      </section>
 
     </header>
 
-    <nav class= "site-nav">
-
-
-      <ul class = "group navlist">
-          <li><a class= "menubutton" href = "#top"> Back To Top</a></li>
-        <li><a class= "menubutton" href = "#aboutus"> About Us</a></li>
-        <li><a class= "menubutton" href = "#getintouch"> Get in Touch </a></li>
-
-      </ul>
-
-    </nav>
-
-
-    <div class="pagewrapper">
+    <div class="pagewrapper col-12">
 
       <div class="companytitleandslogan" >
-        <h1>Chase Morley Associates</h1>
-        <p>|Chartered Certified Accountants|</p>
+        <h1><strong><span class = "banner">Chase Morley Associates</span></strong></h1>
+        <p><span class="bannerslogan">|Chartered Certified Accountants|</span></p>
       </div>
 
-
     </div>
-
-
 
     <div id = "aboutus" class="contentarea">
       <section>
@@ -175,32 +157,66 @@
 
 
     </div>
+
     <footer id = "getintouch">
-      <div class="contactdetails ">
-        <ul>
-          <li><i class="fa  fa-mobile-phone fa-2x"></i> Mobile: <a href="tel:07876 192 525">07876 192 525</a></li>
-          <li><i class="fa  fa-phone fa-lg"></i>  Tel: <a href="tel:01923 840 327">01923 840 327</a> </li>
-          <li><i class="fa  fa-fax fa-lg"></i>  Fax: <a href="tel:01923 828 651">01923 828 651</a> </li>
-          <li ><i class="fa   fa-envelope-open fa-lg"></i>  Email: <a href="email:rita@chasemorley.com">rita@chasemorley.com</a></li>
-          <li ><i class="fa   fa-map fa-lg"></i>  <a href="https://www.google.co.uk/maps/place/Chase+Morley+Associates/@51.6120323,-0.4161807,17z/data=!3m1!4b1!4m5!3m4!1s0x48766b71d421e1a7:0xe0fad7d840655b3!8m2!3d51.6120323!4d-0.413992">   come visit us </a></li>
-        </ul>
 
 
+        <div class="columns col-gapless col-oneline hide-lg">
+          <div class="column col-5">
+            <div class="contactdetails ">
+              <dl>
+                <dt><i class="fa  fa-mobile-phone fa-2x"></i> Mobile: <a href="tel:07876 192 525">07876 192 525</a></dt>
+                <dt><i class="fa  fa-phone fa-lg"></i>  Tel: <a href="tel:01923 840 327">01923 840 327</a> </dt>
+                <dt><i class="fa  fa-fax fa-lg"></i>  Fax: <a href="tel:01923 828 651">01923 828 651</a> </dt>
+                <dt ><i class="fa   fa-envelope-open fa-lg"></i>  Email: <a href="email:rita@chasemorley.com">rita@chasemorley.com</a></dt>
+                <dt ><i class="fa   fa-map fa-lg"></i>  <a href="https://www.google.co.uk/maps/place/Chase+Morley+Associates/@51.6120323,-0.4161807,17z/data=!3m1!4b1!4m5!3m4!1s0x48766b71d421e1a7:0xe0fad7d840655b3!8m2!3d51.6120323!4d-0.413992">   come visit us </a></dt>
+              </dl>
+
+
+
+            </div>
+          </div>
+          <div class="column col-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.6101028479693!2d-0.41618068430802774!3d51.612032279652496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766b71d421e1a7%3A0xe0fad7d840655b3!2sChase+Morley+Associates!5e0!3m2!1sen!2suk!4v1490104490318" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          </div>
 
       </div>
+        <div class="show-lg">
+          <div class="column col-5">
+            <div class="contactdetails ">
+              <dl>
+                <dt><i class="fa  fa-mobile-phone fa-2x"></i> Mobile: <a href="tel:07876 192 525">07876 192 525</a></dt>
+                <dt><i class="fa  fa-phone fa-lg"></i>  Tel: <a href="tel:01923 840 327">01923 840 327</a> </dt>
+                <dt><i class="fa  fa-fax fa-lg"></i>  Fax: <a href="tel:01923 828 651">01923 828 651</a> </dt>
+                <dt ><i class="fa   fa-envelope-open fa-lg"></i>  Email: <a href="email:rita@chasemorley.com">rita@chasemorley.com</a></dt>
+                <dt ><i class="fa   fa-map fa-lg"></i>  <a href="https://www.google.co.uk/maps/place/Chase+Morley+Associates/@51.6120323,-0.4161807,17z/data=!3m1!4b1!4m5!3m4!1s0x48766b71d421e1a7:0xe0fad7d840655b3!8m2!3d51.6120323!4d-0.413992">   come visit us </a></dt>
+              </dl>
 
 
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="show-lg">
+          <div class="column col-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.6101028479693!2d-0.41618068430802774!3d51.612032279652496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766b71d421e1a7%3A0xe0fad7d840655b3!2sChase+Morley+Associates!5e0!3m2!1sen!2suk!4v1490104490318" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          </div>
+
+
+        </div>
       <div class = "copywritenotice">
         <p >Copyright &copy; | Chasemorley Associates 2017 | All Rights Reserved |</p>
       </div>
 
 
     </footer>
+
+
   </body>
-  <script type="text/javascript" src= "https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src= "js/menu.js"></script>
-
   <script type="text/javascript" src = "js/scroll.js"></script>
-
-
+  <script type="text/javascript"src = "js/menu.js"></script>
 </html>
