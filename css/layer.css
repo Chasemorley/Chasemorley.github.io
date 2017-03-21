@@ -90,11 +90,12 @@ header .navbar-section .btn-block a{
 
 .navbar .navbar-brand{
   font-family: "alsscrp","Kunstler Script",cursive;
-  font-size: 250%;
+  font-size: 200%;
   font-weight: bold;
   text-shadow: 10px 10px 20px black;
   color: #D9A441;
   opacity:0;
+  width: 80%;
 }
 
 header .mobile .mobile-nav{
@@ -158,6 +159,15 @@ body .pagewrapper .companytitleandslogan{
 }
 /*END PAGE*/
 
+/*FOOTER*/
+.contactdetails {
+  text-align: justify;
+}
 
+.copywritenotice{
+  background-image: linear-gradient(to right, rgba(255, 59, 63,0.3), rgba(137, 26, 28,0.5))
+}
+
+/*END FOOTER*/
 
 /*END MAIN*/
