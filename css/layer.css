@@ -140,7 +140,7 @@ header .mobile .mobile-nav{
   font-size: 150%;
   font-weight: bold;
   vertical-align: middle;
-  color:  rgba(255, 59, 63,0.8);
+  color:  rgba(255, 59, 63,1);
   position: relative;
   top:150px;
 }
@@ -153,6 +153,28 @@ header .mobile .mobile-nav{
 
 }
 
+@media (max-width: 450px) {
+  .banner{
+    font-family: "alsscrp","Kunstler Script",cursive;
+    font-size: 150%;
+    font-weight: bold;
+    vertical-align: middle;
+    color:  rgba(255, 59, 63,1);
+    position: relative;
+    top:50px;
+  }
+  .bannerslogan{
+    font-weight: 50px;
+    letter-spacing: 2px;
+    color:  rgba(255, 59, 63,0.8);
+    position: relative;
+    top:50px;
+
+  }
+
+
+
+}
 
 body .pagewrapper .companytitleandslogan{
   position: relative;
