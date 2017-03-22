@@ -11,16 +11,15 @@ $(function(){
   })
 
 })
-/*
+
 $(function(){
   $(".menubutton").click(function(){
-    $(".site-nav").toggleClass("visible")
-    $(".mobile-nav").toggleClass("visible")
-    $(".companytitleandslogan").toggleClass("invisible")
-    $(".contentarea").toggleClass("invisible")
+    $(".dropdownmenu").toggleClass("active")
+    $(".mobilebutton").toggleClass("fa-ellipsis-v");
+    $(".mobilebutton").toggleClass("fa-times");
 
   })
-})*/
+})
 
 $(document).ready(function(){
   $('a[href*=#]').click(function() {
