@@ -152,8 +152,60 @@ header .mobile .mobile-nav{
   top:150px;
 
 }
+/*DROPDOWN MENU*/
 
-@media (max-width: 450px) {
+.dropdownmenu {
+  position: fixed;
+  top: 150px;
+  z-index: -1;
+  background: rgba(255, 59, 63,0.5);
+  width: 100%;
+  transition: all 0.3s;
+  opacity:0;
+
+}
+
+.dropdownmenu ul{
+  list-style: none;
+
+}
+
+.dropdownmenu .btn.btn-link {
+  text-decoration: none;
+  color: #D9A441;
+  font-size: 200%
+
+}
+
+
+.dropdownmenu.active{
+  position: fixed;
+  top: 150px;
+  z-index: 20;
+  background: rgba(255, 59, 63,0.8);
+  width: 100%;
+  transition: all 0.3s;
+  opacity: 1;
+
+}
+
+.dropdownmenu.active ul{
+  list-style: none;
+
+}
+
+.dropdownmenu.active .btn.btn-link {
+  text-decoration: none;
+  color: #D9A441;
+  font-size: 200%
+
+
+}
+
+
+/*END DROPDOWN MENU*/
+
+@media screen and (max-width: 450px) {
   .banner{
     font-family: "alsscrp","Kunstler Script",cursive;
     font-size: 150%;
@@ -161,14 +213,14 @@ header .mobile .mobile-nav{
     vertical-align: middle;
     color:  rgba(255, 59, 63,1);
     position: relative;
-    top:50px;
+    top: 10px;
   }
   .bannerslogan{
     font-weight: 50px;
     letter-spacing: 2px;
     color:  rgba(255, 59, 63,0.8);
     position: relative;
-    top:50px;
+    top: 10px;
 
   }
 

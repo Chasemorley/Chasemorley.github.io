@@ -2,6 +2,7 @@ $(function(){
   $(".mobile-nav").click(function(){
       $(".mobilebutton").toggleClass("fa-ellipsis-v");
       $(".mobilebutton").toggleClass("fa-times");
+      $(".dropdownmenu").toggleClass("active")
       /*
       $(".site-nav").toggleClass("visible")
       $(".companytitleandslogan").toggleClass("invisible")
